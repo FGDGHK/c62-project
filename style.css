@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+#mc {
+    background-color: red;
+}
+
+#mc img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#mc2 {
+    background-color: #b5d0d4;
+}
+
+#mc2 img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.menu1 {
+    background-color: darkslategrey;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+
+}
+
+.links {
+    display: inline;
+    color: fuchsia;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}

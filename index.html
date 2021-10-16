@@ -1,0 +1,86 @@
+<html>
+    <head>
+    <title>Photo gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <ul class="menu1">
+        <li class="links"><a href="home">Home</a></li>
+        <li class="links"><a href="Grid view">Grid view</a></li>
+        <li class="links"><a href="Slide view">Slide view</a></li>
+    </ul>
+    <section id="home">
+            <img class="first" src="download%20copy.jpg">
+    </section>
+
+    <section id="Grid view">
+        <h2>Grid Gallery</h2>
+        <div>
+            <img src="download-1.jpg" width="400" height="230"><img src="download-2.jpg" width="400" height="230"><img src="download-3.jpg" width="400" height="230"><img src="download.jpg" width="400" height="230"><img src="images-1.jpg" width="400" height="230"><img src="images.jpg" width="400" height="230">
+        </div>
+    </section>
+    <section id="Slide view">
+        <h2>Slide Gallery</h2>
+
+        <div id="mc" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="images-1%20copy.jpg" class="img-responsive">
+                        </a>
+
+                        <div class="carousel-content">
+                            <p>ROBLOXS</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="images%20copy.jpg" class="img-responsive">
+                        </a>
+
+                        <div class="carousel-content">
+                            <p>ROBLOX</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="images-2.jpg" class="img-responsive">
+                        </a>
+
+                        <div class="carousel-content">
+                            <p>ROBLOX</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#mc" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a class="right carousel-control" href="#mc" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#mc" data-slide-to="0" class="active"></li>
+                <li data-target="#mc" data-slide-to="1"></li>
+                <li data-target="#mc" data-slide-to="2"></li>
+            </ol>
+        </div>
+
+    </section>
+</body></html>
